@@ -1,4 +1,5 @@
-FROM python:3.9.0
+FROM gitpod/workspace-full
+USER gitpod
 
 CMD echo "pip start"
 WORKDIR /tmptmp/
