@@ -11,9 +11,6 @@ RUN sudo apt-get update -q && \
     sudo apt-get install -y libgl1-mesa-dev && \
     sudo apt-get install -y libnss3 && \
     sudo apt-get install -y libxcomposite-dev && \
-    sudo apt-get install -y libxcursor-dev
+    sudo apt-get install -y libxcursor-dev && \
+    sudo apt-get install -y libxi6 libgconf-2-4
 
-#RUN sudo apt install gdebi-core -y
-#RUN sudo wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.1335-amd64.deb
-#RUN sudo gdebi rstudio-1.2.1335-amd64.deb
-#RUN sudo adduser rstudiotest
