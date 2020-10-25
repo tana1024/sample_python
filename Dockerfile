@@ -14,5 +14,6 @@ RUN sudo apt-get update -q && \
     sudo apt-get install -y libxcursor-dev && \
     sudo apt-get install -y libxi6 libgconf-2-4 && \
     sudo apt-get install -y libxtst6 && \
-    sudo apt-get install -y libxrandr-dev
+    sudo apt-get install -y libxrandr-dev && \
+    sudo apt-get install -y libxkbcommon-x11-0
 
