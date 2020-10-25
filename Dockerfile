@@ -10,8 +10,7 @@ RUN pip install --upgrade pip && \
 RUN sudo apt-get update -q && \
     sudo apt-get install -y libgl1-mesa-dev
 
-RUN sudo add-apt-repository "deb http://archive.ubuntu.com/ubuntu $(lsb_release -sc) universe"
-RUN sudo apt install gdebi-core
+RUN sudo apt install gdebi-core -y
 RUN sudo wget https://download1.rstudio.org/desktop/bionic/amd64/rstudio-1.2.1335-amd64.deb
 RUN sudo gdebi rstudio-1.2.1335-amd64.deb
 RUN sudo adduser rstudiotest
