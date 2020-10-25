@@ -1,4 +1,4 @@
-FROM python:3.7.4-stretch
+FROM python:3.9.0
 
 #CMD echo "pip start"
 #WORKDIR /tmptmp/
